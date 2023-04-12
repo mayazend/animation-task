@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 185, 220);
+}
+h1,h2{
+    text-align: center;
+    line-height: 50px;
+}
+.first-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 15px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+.first-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img1{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change {
+    100%{
+        background-color: rgb(120, 187, 246);
+        left: 1300px;
+    }
+    50%{
+        background-color: rgb(72, 162, 240);
+    }
+    0%{
+        background-color: rgb(16, 137, 244);
+        left: 0;
+    }
+}
+.second-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 235px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 4s;
+    right: 0;
+}
+.second-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img2{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change1 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        right: 1300px;
+    } 
+    50%{
+        background-color: rgb(72, 162, 240); 
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        right: 0;
+    }
+}  
+.third-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 470px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 8s;
+}
+.third-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img3{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change2 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        left: 1300px;
+    } 
+    50%{
+        background-color: rgb(72, 162, 240); 
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        left: 0;
+    }
+}  
+.fourth-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 690px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 12s;
+    right: 0;
+}
+.fourth-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img4{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change3 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        right: 1300px;
+    } 
+    50%{
+        background-color: rgb(72, 162, 240); 
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        right: 0;
+    }
+}  
+.container2{
+    margin: 800px 0px 0px 0px;
+}
+.fifth-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 100px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 14s;
+}
+.fifth-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img5{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change4 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        left: 1300px;
+    }
+    50%{
+        background-color: rgb(72, 162, 240);
+    }
+    0%{
+        background-color: rgb(16, 137, 244);
+        left: 0;
+    }
+}
+.sixth-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 350px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change5;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 16s;
+    right: 0;
+}
+.sixth-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img6{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change5 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        right: 1300px;
+    } 
+    50%{
+        background-color: rgb(72, 162, 240);
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        right: 0;
+        }
+}  
+.seventh-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 580px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change6;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 19s;
+}
+.seventh-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img7{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change6 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        left: 1300px;
+    } 
+    50%{
+        background-color: rgb(72, 162, 240); 
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        left: 0;
+    }
+}  
+.eighth-category{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(151, 205, 251) ;
+    margin: 850px 0px;
+    text-align: center;
+    line-height: 35px;
+    color: aliceblue;
+    animation-name: change7;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-delay: 22s;
+    right: 0;
+}
+.eighth-category img{
+    width: 150px;
+    height: 150px;
+    width: 100%;
+}
+.img8{
+    width: 90%;
+    margin: auto;
+}
+@keyframes change7 {
+    100%{
+        background-color: rgb(120, 187, 246);
+        right: 1300px;
+        } 
+    50%{
+        background-color: rgb(72, 162, 240); 
+    }
+    0%{
+        background-color: rgb(16, 137, 244); 
+        right: 0;
+    }
+}  
